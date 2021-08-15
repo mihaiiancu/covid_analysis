@@ -12,4 +12,4 @@ tasks:
 - name: run mode
   command: /workspace/covid_analysis/run.sh
 - name: copy mode
-  command: cp -r /covid_analysis/.jupyter /home/gitpod/
+  command: cp -r /workspace/covid_analysis/.jupyter /home/gitpod/
