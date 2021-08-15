@@ -8,8 +8,8 @@ ports:
   onOpen: open-browser
 tasks:
 - name: change mode
-  command chmod 755 /workspace/covid_analysis/run.sh
+  command: chmod 755 /workspace/covid_analysis/run.sh
 - name: run mode
-  command /workspace/covid_analysis/run.sh
+  command: /workspace/covid_analysis/run.sh
 - name: copy mode
   command: cp -r /covid_analysis/.jupyter /home/gitpod/
